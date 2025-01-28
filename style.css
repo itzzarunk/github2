@@ -1,0 +1,274 @@
+body{
+ margin:0;
+ font-size: 25px;
+ color: aliceblue;
+}
+h2,div,img{
+    margin:0;
+}
+.orgback{
+    position:relative;
+    background-color: #ff8000;
+    height:550px;
+    overflow:hidden;
+}
+.orgback h2{
+    position: absolute;
+    min-width:350px;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.orgback p{
+    margin: 0;
+    width:45%;
+    position:absolute;
+    padding-top:150px;
+    padding-left:5%;
+}
+.orgback h2,p{
+    margin-right:55%;
+    height:100%;
+    overflow: hidden;
+}
+.brush{
+    position:absolute;
+    margin-left: 70%;
+    top: 2%;
+    width: 400px;
+    padding-right: 2%;
+}
+.pic{
+    position: relative;
+    width:100%;
+    height:800px;
+    overflow: hidden;
+}
+.or1{
+    padding-top: 5%;
+    position:relative;
+    width: 55%;
+    min-width :650px;
+    margin-left:50%;
+    top:10%;
+    overflow:hidden;
+    margin-right: 2%;
+    border: 2px;
+}
+
+.or2{
+    position: absolute ;
+    min-width: 500px;
+    width: 55%;
+    margin-left:60%;
+    top:30%;
+    overflow:hidden;
+}
+
+.redback,.redback2{
+    background-color: #bc382e;
+    height:600px;
+    overflow:hidden;
+}
+.redback h2{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 10%;
+    height: 100px;
+}
+.redback p{
+    width:40%;
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 10%;
+    height: 260px;
+
+}
+.r{
+    height:100px;
+    position:relative;
+}
+.r1{
+    top: 200px;
+    position:relative;
+    margin-left:50%;
+    width:65%;
+}
+.r2{
+    top: 245px;
+    position: absolute;
+    margin-left:61%;
+    width:40%;
+}
+.r3{
+    top: 130px;
+    position: absolute;
+    margin-left:80%;
+    width:22%;
+}
+.greenback{
+    background-color: #388d80;
+    height:600px;
+    overflow:hidden;
+}
+.greenback h2{
+    margin-left: 40%;
+    margin-top: 150px;
+    position: absolute;
+}
+.greenback p{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 40%;
+    height:46%;
+}
+.g{
+    position: relative;
+    height:450px;
+}
+.g1{
+    max-width: 40%;
+    margin: 5% 0; 
+    width:400px;
+    height:400px;
+}
+.g2{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 35%;
+    width:300px;
+}
+.g3{
+    position: absolute;
+    margin-top:350px;
+    margin-left: 45%;
+    width:300px;
+}
+.g4{
+    position: absolute;
+    margin-top:300px;
+    right: 3%;
+    width:100px;
+}
+.greyback{
+    background-color: #577783;
+    height:600px;
+    overflow:hidden;
+}
+.greyback h2{
+    position: absolute;
+    width: 45%;
+    margin-left: 10%;
+    margin-top:20%;
+    margin-top:150px;
+}
+.greyback p{
+    position: absolute;
+    width: 40%;
+    margin-top: 270px;
+    margin-left: 10%;
+}
+.gr,.grc1{
+    position:relative;
+    margin-left: 50%;
+    width:50%;
+    height:50%;
+}
+.gr .gr1{
+    position:absolute;
+    margin-left:75%;
+    margin-top:2%;
+    width: 50%;
+    height:92%;
+}
+.gr .gr2{
+    position:absolute;
+    margin-left:0%;
+    width: 70%;
+    height: 100%;
+}
+.grc1 .gr3{
+    position:absolute;
+    margin-left:75%;
+    margin-top:0%;
+    height:70%;
+    width: 50%;
+}
+.grc1 .gr4{
+    position:absolute;
+    margin-left:0%;
+    margin-top:0%;
+    height:70%;
+    width: 70%;
+}
+.redback2 h2{
+    margin-left:10%;
+    margin-top: 150px;
+    position: absolute;
+    width: 50%;
+}
+.redback2 p{
+    margin-left:10%;
+    margin-top:256px;
+    position:absolute;
+    width:40%;
+} 
+.re{
+    position:relative;
+    margin-left:50%;
+    height:400px;
+}
+#re1{
+    margin-top:20%;
+    position: absolute;
+    width:30%;
+    margin-left:75%;
+    min-width:200px;
+}
+#re2{
+    position: absolute;
+    margin-top:15%;
+    width:40%;
+    margin-left:40%;
+    min-width:200px;
+}
+#re3{
+    position:absolute;
+    margin-top: 35%;
+    width:40%;
+    margin-left:20%;
+    min-width:200px;
+}
+.orgback2{
+    background-color: #ff8000;
+    position:relative;
+    height:550px;
+}
+.orgback2{
+    align-content: center;
+    text-align: center;
+}
+.orgback2 h2,p,button,.icon{
+    margin: 15%;
+    width: 50%;
+}
+
+.orgback2 img{
+    width: 100%;
+}
+.mapback{
+    background-image: url(https://www.blogger.com/about/img/sections/millions/millions-map_2x.png);
+    position: absolute;
+    top :0;
+    left:0;
+    width: 100%;
+    background-position:center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.mapback div.map{
+    background-image: url("https://www.blogger.com/about/img/sections/millions/millions-map_2x.png");
+}
+.mapicon{
+    margin: 0;
+    background-image: url("https://www.blogger.com/about/img/sections/millions/millions-markers_2x.png");
+}
